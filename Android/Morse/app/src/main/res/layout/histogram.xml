@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextureView
+        android:id="@+id/cameraView"
+        android:layout_width="wrap_content"
+        android:layout_height="263dp"
+        android:contentDescription="@string/demoImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/list_selector_background"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <TextureView
+        android:id="@+id/grayView"
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:contentDescription="@string/demoImageHistogram"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextureView
+        android:id="@+id/textureHistogram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
