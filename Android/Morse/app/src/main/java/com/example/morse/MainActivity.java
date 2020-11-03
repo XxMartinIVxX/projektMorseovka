@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
     /*lolo*/
+    /*lolo*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
